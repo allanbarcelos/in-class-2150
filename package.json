@@ -1,0 +1,32 @@
+{
+  "name": "in-class-02150",
+  "version": "1.0.0",
+  "description": "This an example how to use GIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanbarcelos/in-class-2150.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanbarcelos/in-class-2150/issues"
+  },
+  "homepage": "https://github.com/allanbarcelos/in-class-2150#readme",
+  "dependencies": {
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}
