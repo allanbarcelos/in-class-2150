@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "donjayamanne.githistory",
+        "ecmel.vscode-html-css",
+        "ritwickdey.liveserver",
+        "pkief.material-icon-theme",
+        "sibiraj-s.vscode-scss-formatter",
+        "mrmlnc.vscode-scss",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml"
+    ]
+}
