@@ -4,12 +4,13 @@ This an example how to use GIT
 
 - I Add new name in the list
 
-# Task for now (time 20 min)
+# Task - Using webpack (1h15)
 
-1) Fork this repository
-2) Clone in your machine
-3) Create a new item in list in index.html with your name (First and Last)
-4) push to your forked repository
-5) create a pull re quest to oficial rep.
-- you dont need make any change in the other files, just in index.html
-
+1) in group
+2) the leader need create a repository in your github profile, "same name of task"-02150
+3) the others will FORK
+4) everybody need contribuite
+5) use webpack
+6) use SCSS
+7) use your creativity
+8) prepare to show the project for your co-workers
