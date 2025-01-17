@@ -3,3 +3,4 @@
 This an example how to use GIT
 
 - I Add new name in the list
+- don`t accept
