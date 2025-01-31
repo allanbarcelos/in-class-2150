@@ -7,7 +7,6 @@ module.exports = {
     main: "./scripts/main.js",
     register: "./scripts/register.js",
     list: "./scripts/list.js",
-
   },
   output: {
     path: path.resolve(__dirname, "dist"),
