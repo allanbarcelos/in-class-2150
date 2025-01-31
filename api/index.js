@@ -1,7 +1,10 @@
 const express = require("express");
 const mysql = require("mysql2/promise");
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
+
 const port = 3000;
 
 const dbConfig = {
@@ -44,7 +47,7 @@ app.post("/api/register", async (req, res) => { /// every time we want create so
         res.status(201).json({message: "Created with success"});
 
     } catch (e) {
-        res.status(500).json({error: "Something happens in the server"});
+        res.status(500).json({error: `Something happens in the server: ${e}` });
     }
 });
 

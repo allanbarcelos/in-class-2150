@@ -6,6 +6,8 @@ module.exports = {
   entry: {
     main: "./scripts/main.js",
     register: "./scripts/register.js",
+    list: "./scripts/list.js",
+
   },
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -37,6 +39,11 @@ module.exports = {
       template: "./register.html",
       chunks: ["register"],
       filename: "register.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./list.html",
+      chunks: ["list"],
+      filename: "list.html",
     }),
   ],
   devServer: {
